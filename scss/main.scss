@@ -4,15 +4,43 @@ $theme-colors: (
     "secondary": #fcae61,
     "tertiary": #2401f9,
     "gray": #e2ebec,
-    "orange": #ffab25
+    "orange": #ffab25,
+    "red": #f54d5d,
+    "light-blue": #2361ff,
+    "green": #349154
 );
 
-.pull-right {
-    margin: 0 0 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.mt-26 {
+    margin-top: 6.5rem;
+}
+
+.mt-52 {
+    margin-top: 13rem;
+}
+
+.mr-60 {
+    margin-right: 15rem;
+}
+
+.mr-5 {
+    margin-right: 5rem;
+}
+
+.background-Performance {
+    background-color: rgba(245,77,93, 0.15)
+}
+
+.background-Prototyping {
+    background-color: rgba(35,97,255, .15)
+}
+
+.background-Vector {
+    background-color: rgba(52,145,84,0.15)
 }
 
 @media (max-width: 991.98px) { 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
