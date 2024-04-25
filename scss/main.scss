@@ -1,4 +1,3 @@
-$font-family-base: "Poppins", sans-serif;
 $theme-colors: (
     "primary": #252e51,
     "secondary": #fcae61,
@@ -7,38 +6,56 @@ $theme-colors: (
     "orange": #ffab25,
     "red": #f54d5d,
     "light-blue": #2361ff,
-    "green": #349154
+    "green": #349154,
 );
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$font-family-base: "Poppins", sans-serif;
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .mt-26 {
     margin-top: 6.5rem;
 }
 
+.pb-26 {
+    padding-bottom: 6.5rem;
+}
+
 .mt-52 {
-    margin-top: 13rem;
+    margin-top: 10rem;
 }
 
 .mr-60 {
-    margin-right: 15rem;
+    margin-right: 25rem;
+}
+
+.mr-50 {
+    margin-right: 13rem;
+}
+
+.mr-52 {
+    margin-right: 17rem;
 }
 
 .mr-5 {
     margin-right: 5rem;
 }
 
-.background-Performance {
+.background-red-opacity {
     background-color: rgba(245,77,93, 0.15)
 }
 
-.background-Prototyping {
+.background-blue-opacity {
     background-color: rgba(35,97,255, .15)
 }
 
-.background-Vector {
+.background-green-opacity {
     background-color: rgba(52,145,84,0.15)
+}
+
+.background-orange-opacity {
+    background-color: rgba(252,174,97,.25)
 }
 
 @media (max-width: 991.98px) { 
