@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="text-primary">
+<body class="text-primary overflow-x-hidden">
     <header class="container mt-5">
         <nav class="navbar navbar-expand-lg ">
             <a class="navbar-brand fs-1" href="#intro">
@@ -56,7 +56,7 @@
                     </button>
                 </div>
             </div>
-            <img class="display-2" src="./public/smartphone.webp" alt="smartphone" />
+            <img class="img-fluid" src="./public/smartphone.webp" alt="smartphone" />
         </div>
         <img class="position-absolute z-n1 w-100 fixed-bottom " src="./public/town.webp" alt="town" />
         <img class="position-absolute z-n1 fixed-bottom ms-5" src="./public/red_circles.webp" alt="red_circles" />
@@ -75,7 +75,7 @@
         </div>
     </div>
     <div class="mt-52 d-flex flex-column flex-md-row justify-content-center mr-60">
-        <img class="display-2" src="./public/phoneSmartSearch.webp" alt="phoneSmartSearch" />
+        <img class="img-fluid" src="./public/phoneSmartSearch.webp" alt="phoneSmartSearch" />
         <div class="mt-5">
             <h2 class="display-6 fw-bold">Awesome apps <br /> features</h2>
             <h5 class="opacity-75 mt-3 fs-6">Increase productivity with a simple to-do app. app for <br /> managing your personal budgets.</h5>
@@ -141,7 +141,13 @@
     </div>
 
     <div class="mt-52 d-flex flex-column flex-md-row align-items-center justify-content-center border-bottom border-2 w-100 pb-26">
-        <img class="display-2 pe-5" src="./public/technologies.webp" alt="technologies" />
+        <img class="img-fluid pe-5 z-n1" src="./public/technologies.webp" alt="technologies" />
+        <img class="position-absolute logo1-position" src="./public/logo1.webp" alt="logo1" />
+        <img class="position-absolute logo2-position" src="./public/logo2.webp" alt="logo2" />
+        <img class="position-absolute logo3-position" src="./public/logo3.webp" alt="logo3" />
+        <img class="position-absolute logo4-position" src="./public/logo4.webp" alt="logo4" />
+        <img class="position-absolute logo5-position" src="./public/logo5.webp" alt="logo5" />
+        <img class="position-absolute logo6-position" src="./public/logo6.webp" alt="logo6" />
         <div class="ps-5 mr-52">
             <h2 class="display-6 fw-bold">Designed & built by<br />the latest code<br />integration</h2>
             <h5 class="opacity-75 mt-4 fs-6">The rise of mobile devices transforms the way we<br />consume information entirely and the world's most<br />elevant channels such as Facebook.</h5>
@@ -157,7 +163,7 @@
             <h5 class="opacity-75 mt-4 fs-6">The rise of mobile devices transforms the way we consume information entirely <br /> and the world's most elevant channels such as Facebook.</h5>
         </div>
 
-        <div class="row mt-26 w-100">
+        <div class="row mt-26 w-100 padding-x">
             <div class="col-sm">
                 <div class="">
                     <i class="fas fa-tablet-screen-button fs-1 background-red-opacity p-3 rounded-circle text-primary"></i>
@@ -187,7 +193,7 @@
             </div>
         </div>
 
-        <div class="row mt-26 w-100">
+        <div class="row mt-26 w-100 padding-x">
             <div class="col-sm">
                 <div class="">
                     <i class="fas fa-screwdriver-wrench fs-1 background-green-opacity p-3 rounded-circle text-primary"></i>
@@ -215,6 +221,61 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="container mt-52 d-flex flex-column flex-lg-row">
+        <div class="margin-left-18">
+            <h2 class="display-6 fw-bold">Ultimate features<br /> that we built</h2>
+            <h5 class="opacity-75 mt-4 fs-6">The rise of mobile devices transforms the way we<br/>consume information entirely.</h5>
+            <div class="row mt-5">
+                <div class="col-sm">
+                    <i class="fas fa-tablet-screen-button fs-1 background-red-opacity p-3 rounded-circle text-primary"></i>
+                    <div class="mt-4">
+                        <h3 class="text-primary fs-5 fw-bold">App Development</h3> 
+                        <h5 class="opacity-75 mt-3 fs-6">Get Your blood tests delivered at <br/>home collect a sample from the <br /> news your blood tests.</h5>
+                    </div>
+                </div>
+                <div class="col-sm ps-5 ms-5">
+                    <i class="fas fa-toolbox fs-1 background-green-opacity p-3 rounded-circle text-primary"></i>
+                    <div class="mt-4">
+                        <h3 class="text-primary fs-5 fw-bold">UX Planning</h3> 
+                        <h5 class="opacity-75 mt-3 fs-6">Get Your blood tests delivered at <br/>home collect a sample from the <br /> news your blood tests.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-sm">
+                    <i class="fas fa-database fs-1 background-orange-opacity p-3 rounded-circle text-primary"></i>
+                    <div class="mt-4">
+                        <h3 class="text-primary fs-5 fw-bold">Cloud Storage</h3> 
+                        <h5 class="opacity-75 mt-3 fs-6">Get Your blood tests delivered at <br/>home collect a sample from the<br />news your blood tests.</h5>
+                    </div>
+                </div>
+                <div class="col-sm ps-5 ms-5">
+                    <i class="fas fa-headset fs-1 background-blue-opacity p-3 rounded-circle text-primary"></i>
+                    <div class="mt-4">
+                        <h3 class="text-primary fs-5 fw-bold">Customer Support</h3> 
+                        <h5 class="opacity-75 mt-3 fs-6">Get Your blood tests delivered at <br/>home collect a sample from the<br />news your blood tests.</h5>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="mt-5 btn btn-tertiary btn-lg rounded-pill px-5 py-3">
+                <span class="fw-bolder fs-6">See all</span>
+            </button>
+        </div>
+        <div class="">
+            <img class="img-fluid position-absolute margin-left-24" src="public/elipse.webp" alt="elipse" />
+            <img class="img-fluid position-absolute phone-productivity" src="public/phoneProductivity.webp" alt="phoneProductivity" />
+            <img class="img-fluid position-absolute phone-planning" src="public/phonePlanning.webp" alt="phonePlanning" />
+        </div>
+    </div>
+
+    <div class="container d-flex flex-column justify-content-center align-items-center text-center">
+        <div class="mt-52 flex-d w-100 text-center">
+            <h2 class="display-6 fw-bold">Get awesome features, without<br />extra charges</h2>
+            <h5 class="opacity-75 mt-4 fs-6">The rise of mobile devices transforms the way we consume information entirely <br /> and the world's most elevant channels such as Facebook.</h5>
         </div>
     </div>
 
