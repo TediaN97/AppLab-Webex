@@ -8,7 +8,7 @@ $theme-colors: (
     "light-blue": #2361ff,
     "green": #349154,
 );
-
+    
 $font-family-base: "Poppins", sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -104,6 +104,51 @@ $font-family-base: "Poppins", sans-serif;
     margin-bottom: 8.25rem
 }
 
+.photo1-position {
+    left: 0;
+    margin-left: 17.5rem;
+    margin-top: 11rem;
+}
+
+.photo2-position {
+    left: 0;
+    margin-left: 2.5rem;
+    margin-top: 6rem;
+}
+
+.photo3-position {
+    left: 0;
+    margin-left: 14.5rem;
+    margin-top: 23rem;
+}
+
+.photo4-position {
+    left: 0;
+    margin-left: 38rem;
+    margin-top: 2rem;
+}
+
+.photo5-position {
+    left: 0;
+    margin-left: 30.5rem;
+    margin-top: 16rem;
+}
+
+.photo6-position {
+    left: 0;
+    margin-left: 4rem;
+    margin-top: 14rem;
+}
+
+.photo7-position {
+    left: 0;
+    margin-left: 16rem;
+}
+
+.background-gradient {
+    background-image: linear-gradient(to bottom, white, #f4f6f8);
+}
+
 .background-red-opacity {
     background-color: rgba(245,77,93, 0.15)
 }
@@ -122,4 +167,5 @@ $font-family-base: "Poppins", sans-serif;
 
 @media (max-width: 991.98px) { 
 }
+
 

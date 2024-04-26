@@ -140,7 +140,7 @@
         </div>
     </div>
 
-    <div class="mt-52 d-flex flex-column flex-md-row align-items-center justify-content-center border-bottom border-2 w-100 pb-26">
+    <div class="mt-52 d-flex flex-column flex-md-row align-items-center justify-content-center border-bottom border-1 w-100 pb-26">
         <img class="img-fluid pe-5 z-n1" src="./public/technologies.webp" alt="technologies" />
         <img class="position-absolute logo1-position" src="./public/logo1.webp" alt="logo1" />
         <img class="position-absolute logo2-position" src="./public/logo2.webp" alt="logo2" />
@@ -272,10 +272,79 @@
         </div>
     </div>
 
-    <div class="container d-flex flex-column justify-content-center align-items-center text-center">
+    <div class="d-flex flex-column justify-content-center align-items-center text-center border-bottom border-1 w-100 pb-26">
         <div class="mt-52 flex-d w-100 text-center">
             <h2 class="display-6 fw-bold">Get awesome features, without<br />extra charges</h2>
             <h5 class="opacity-75 mt-4 fs-6">The rise of mobile devices transforms the way we consume information entirely <br /> and the world's most elevant channels such as Facebook.</h5>
+        </div>
+        <span class="rounded-pill border border-2 py-1 px-1 mt-26">
+            <button type="button" class="btn btn-tertiary btn-lg rounded-pill px-5 py-2">
+                <span class="fw-bolder fs-6">Monthly</span>
+            </button>
+            <button type="button" class="btn btn-lg text-primary opacity-75 rounded-pill px-4 py-2">
+                <span class="fs-6">Annually</span>
+            </button>
+        </span>
+
+        <div class="row mt-2 g-5 ">
+            <div class="col-sm" style="width: 24rem">
+                <div class="card border-0 shadow-lg">
+                    <div class="card-header text-primary border-bottom-0 background-gradient pt-5 pb-4">
+                        <h1 class="fw-bold display-3">$0<span class="opacity-50 fs-5 fw-normal">/month</span></h1>
+                        <h4 class="fs-5 fw-bold">Business Class</h4>
+                        <h5 class="fs-6 opacity-50">For small teams or office</h5>
+                    </div>
+                    <div class="card-body text-primary">
+                        <p class="card-text opacity-50 pt-2">Drag & Drop Builder</p>
+                        <p class="card-text opacity-50 pt-2">1,000's of Templates</p>
+                        <p class="card-text opacity-50 pt-2">Blog Support Tools</p>
+                        <p class="card-text opacity-50 pt-2">eCommerce Store</p>
+                        <button type="button" class="btn btn-tertiary btn-lg rounded-pill px-5 py-3 mt-3 mb-2">
+                            <span class="fw-bolder fs-6">Start free trail</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm" style="width: 24rem">
+                <div class="card border-2">
+                    <div class="card-header text-primary border-bottom-0 background-gradient pt-5 pb-4">
+                        <h1 class="fw-bold display-3">$99<span class="opacity-50 fs-5 fw-normal">/month</span></h1>
+                        <h4 class="fs-5 fw-bold">Pro Master</h4>
+                        <h5 class="fs-6 opacity-50">For Best opportunities</h5>
+                    </div>
+                    <div class="card-body text-primary d-flex flex-column align-items-center">
+                        <p class="card-text opacity-50 pt-2">Drag & Drop Builder</p>
+                        <p class="card-text opacity-50 pt-2">1,000's of Templates</p>
+                        <p class="card-text opacity-50 pt-2">Blog Support Tools</p>
+                        <p class="card-text opacity-50 pt-2">eCommerce Store</p>
+                        <button type="button" class="btn btn-tertiary btn-lg rounded-pill px-5 py-3 mt-3">
+                            <span class="fw-bolder fs-6">Subscribe Now</span>
+                        </button>
+                        <button type="button" class="btn btn-lg text-tertiary rounded-pill px-4 py-3 mt-2">
+                            <span class="fs-6">Or Start 14 days trail</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-52 d-flex flex-column flex-md-row">
+        <img class="img-fluid z-n1 opacity-25" src="./public/mapOfWorld.webp" alt="MapOfTheWorld" />
+        <img class="img-fluid position-absolute photo1-position rounded-circle" src="./public/photo1.webp" alt="photo1" />
+        <img class="img-fluid position-absolute photo2-position rounded-circle" src="./public/photo2.webp" alt="photo2" />
+        <img class="img-fluid position-absolute photo3-position rounded-circle" src="./public/photo3.webp" alt="photo3" />
+        <img class="img-fluid position-absolute photo4-position rounded-circle" src="./public/photo4.webp" alt="photo4" />
+        <img class="img-fluid position-absolute photo5-position rounded-circle" src="./public/photo5.webp" alt="photo5" />
+        <img class="img-fluid position-absolute photo6-position rounded-circle" src="./public/photo6.webp" alt="photo6" />
+        <img class="img-fluid position-absolute photo7-position rounded-circle" src="./public/photo7.webp" alt="photo7" />
+        <div class="ps-5 mr-52">
+            <h2 class="display-6 fw-bold">Designed & built by<br />the latest code<br />integration</h2>
+            <h5 class="opacity-75 mt-4 fs-6">The rise of mobile devices transforms the way we<br />consume information entirely and the world's most<br />elevant channels such as Facebook.</h5>
+            <button type="button" class="mt-4 btn btn-tertiary btn-lg rounded-pill px-5 py-3">
+                <span class="fw-bolder fs-6">Learn more</span>
+            </button>
         </div>
     </div>
 
