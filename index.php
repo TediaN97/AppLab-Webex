@@ -331,20 +331,52 @@
     </div>
 
     <div class="mt-52 d-flex flex-column flex-md-row">
-        <img class="img-fluid z-n1 opacity-25" src="./public/mapOfWorld.webp" alt="MapOfTheWorld" />
-        <img class="img-fluid position-absolute photo1-position rounded-circle" src="./public/photo1.webp" alt="photo1" />
-        <img class="img-fluid position-absolute photo2-position rounded-circle" src="./public/photo2.webp" alt="photo2" />
-        <img class="img-fluid position-absolute photo3-position rounded-circle" src="./public/photo3.webp" alt="photo3" />
-        <img class="img-fluid position-absolute photo4-position rounded-circle" src="./public/photo4.webp" alt="photo4" />
-        <img class="img-fluid position-absolute photo5-position rounded-circle" src="./public/photo5.webp" alt="photo5" />
-        <img class="img-fluid position-absolute photo6-position rounded-circle" src="./public/photo6.webp" alt="photo6" />
-        <img class="img-fluid position-absolute photo7-position rounded-circle" src="./public/photo7.webp" alt="photo7" />
-        <div class="ps-5 mr-52">
-            <h2 class="display-6 fw-bold">Designed & built by<br />the latest code<br />integration</h2>
-            <h5 class="opacity-75 mt-4 fs-6">The rise of mobile devices transforms the way we<br />consume information entirely and the world's most<br />elevant channels such as Facebook.</h5>
-            <button type="button" class="mt-4 btn btn-tertiary btn-lg rounded-pill px-5 py-3">
-                <span class="fw-bolder fs-6">Learn more</span>
-            </button>
+        <div class="mt-28">
+            <img class="img-fluid z-n1 opacity-25" src="./public/mapOfWorld.webp" alt="MapOfTheWorld" />
+            <img class="img-fluid position-absolute photo1-position rounded-circle" src="./public/photo1.webp" alt="photo1" />
+            <img class="img-fluid position-absolute photo2-position rounded-circle" src="./public/photo2.webp" alt="photo2" />
+            <img class="img-fluid position-absolute photo3-position rounded-circle" src="./public/photo3.webp" alt="photo3" />
+            <img class="img-fluid position-absolute photo4-position rounded-circle" src="./public/photo4.webp" alt="photo4" />
+            <img class="img-fluid position-absolute photo5-position rounded-circle" src="./public/photo5.webp" alt="photo5" />
+            <img class="img-fluid position-absolute photo6-position rounded-circle" src="./public/photo6.webp" alt="photo6" />
+            <img class="img-fluid position-absolute photo7-position rounded-circle" src="./public/photo7.webp" alt="photo7" />
+        </div>
+        <div class="ps-5">
+            <h2 class="display-6 fw-bold">Meet Client Satisfaction <br /> by using product</h2>
+            <h5 class="opacity-75 mt-4 fs-6">The rise of mobile devices transforms the way we consume. <br /> elevant channels such as Facebook.</h5>
+            <div class="mt-5">
+                <i class="fas fa-star fs-5 text-yellow"></i>
+                <i class="fas fa-star fs-5 text-yellow"></i>
+                <i class="fas fa-star fs-5 text-yellow"></i>
+                <i class="fas fa-star fs-5 text-yellow"></i>
+                <i class="fas fa-star fs-5 text-yellow"></i>
+            </div>
+            <h3 class="fs-5 fw-bold mt-4">User friendly & Customization</h3>
+            <p class="mt-4 opacity-75 mt-4 fs-6">
+                Bring to the table win-win survival strategies to ensure proactive domi-<br />
+                nation. At the end of the day, going a new normal that has<br />
+                evolved from generation X is on the runway heading towards a<br />
+                stramlined cloud solution. User generated content is real-time will<br />
+                have multiple touchpoints for offshoring.
+            </p>
+            <div class="mt-6 d-flex flex-column flex-lg-row justify-content-between align-items-center">
+                <div class="d-flex flex-column flex-lg-row align-items-center">
+                    <img class="img-fluid rounded-circle" src="./public/photo8.webp" alt="photo8" />
+                    <div class="d-flex flex-column ps-4 fs-6">
+                        <span class="fw-bold">Zoltan Nemeth</span>
+                        <span class="opacity-75">CEO of Pixier Lab</span>
+                    </div>
+                 </div>
+                 <div class="d-flex flex-row align-items-center">
+                    <button class="btn btn-lg disabled border-2 border-light-blue rounded-circle opacity-25 ps-3" data-bs-toggle="button" autocomplete="off">
+                        <i class="fas fa-arrow-left fs-5 text-primary"></i>
+                    </button>
+                    <div class="mx-2 fs-3 opacity-25 fw-light">|</div>
+                    <button class="btn btn-lg background-blue-opacity rounded-circle">
+                        <i class="fas fa-arrow-right fs-5 text-light-blue"></i>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 
