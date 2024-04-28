@@ -448,12 +448,8 @@
             <h1 class="display-5 fw-bold">Download our App now !</h1>
             <h5 class="opacity-75 mt-4 fs-6">The rise of mobile devices transforms the way we consume information entirely <br /> and the world's most elevant channels such as Facebook.</h5>
             <div class="d-flex flex-row mt-5">
-                <a>
-                    <img class="img-fluid" src="./public/google.webp" alt="Google Play">
-                </a>
-                <a>
-                    <img class="img-fluid ps-5" src="./public/apple.webp" alt="App Store">
-                </a>
+                <a href=""><img class="img-fluid" src="./public/google.webp" alt="Google Play"></a>
+                <a href=""><img class="img-fluid ps-5" src="./public/apple.webp" alt="App Store"></a>
             </div>
         </div>
         <div>
@@ -475,7 +471,7 @@
         <div class="d-flex flex-row mt-5">
             <a class="fs-3 pe-4 opacity-25" href=""><i class="fa-brands fa-facebook-f text-white"></i></a>
             <a class="fs-3 pe-4 opacity-25" href=""><i class="fa-brands fa-twitter text-white"></i></a>
-            <a class="fs-3 pe-4" href=""><img src="./public/hashLogo.webp" alt="logo" /></a>
+            <a class="fs-3 pe-4" href=""><i class="fa-brands fa-slack text-white"></i></a>
             <a class="fs-3 pe-4 opacity-25" href=""><i class="fa-brands fa-square-github text-white"></i></a>
         </div>
         <div class="mt-26 mb-52">
