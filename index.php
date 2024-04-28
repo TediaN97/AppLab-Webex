@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="text-primary overflow-x-hidden">
-    <header class="container mt-5">
+    <header class="container mt-5" id="home">
         <nav class="navbar navbar-expand-lg ">
-            <a class="navbar-brand fs-1" href="#intro">
+            <a class="navbar-brand fs-1" href="#home">
                 <span class="fw-bold text-secondary">App</span><span class="fw-bold text-primary">Lab</span>
             </a>
             <button class="navbar-toggler border-primary" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,19 +19,19 @@
             <div class="collapse navbar-collapse justify-content-md-end" id="main-nav">
                 <ul class="navbar-nav justify-content-evenly w-75">
                     <li class="nav-item">
-                        <a class="nav-link mt-3 fs-6" href="#">Home</a>
+                        <a class="nav-link mt-3 fs-6" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mt-3 fs-6" href="#">Key Features</a>
+                        <a class="nav-link mt-3 fs-6" href="#key_features">Key Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mt-3 fs-6" href="#">Pricing</a>
+                        <a class="nav-link mt-3 fs-6" href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mt-3 fs-6" href="#">Testiminial</a>
+                        <a class="nav-link mt-3 fs-6" href="#testiminial">Testiminial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mt-3 fs-6" href="#">FAQ</a>
+                        <a class="nav-link mt-3 fs-6" href="#faq">FAQ</a>
                     </li>
                     <button type="button" class="btn btn-tertiary btn-lg rounded-pill px-5 py-3">
                         <span class="fw-bolder fs-6">Try for free</span>
@@ -62,7 +62,7 @@
         <img class="position-absolute z-n1 fixed-bottom ms-5" src="./public/red_circles.webp" alt="red_circles" />
     </header>
 
-    <div class="container d-flex flex-column justify-content-evenly align-items-center mt-26">
+    <div class="container d-flex flex-column justify-content-evenly align-items-center mt-26" id="key_features">
         <span class="text-primary fs-6">
             Trusted by companies like
         </span>
@@ -272,7 +272,7 @@
         </div>
     </div>
 
-    <div class="d-flex flex-column justify-content-center align-items-center text-center border-bottom border-1 w-100 pb-26">
+    <div class="d-flex flex-column justify-content-center align-items-center text-center border-bottom border-1 w-100 pb-26" id="pricing">
         <div class="mt-52 flex-d w-100 text-center">
             <h2 class="display-6 fw-bold">Get awesome features, without<br />extra charges</h2>
             <h5 class="opacity-75 mt-4 fs-6">The rise of mobile devices transforms the way we consume information entirely <br /> and the world's most elevant channels such as Facebook.</h5>
@@ -286,7 +286,7 @@
             </button>
         </span>
 
-        <div class="row mt-2 g-5 ">
+        <div class="row mt-2 g-5">
             <div class="col-sm" style="width: 24rem">
                 <div class="card border-0 shadow-lg">
                     <div class="card-header text-primary border-bottom-0 background-gradient pt-5 pb-4">
@@ -330,7 +330,7 @@
         </div>
     </div>
 
-    <div class="mt-52 d-flex flex-column flex-md-row">
+    <div class="mt-52 d-flex flex-column flex-md-row" id="testiminial">
         <div class="mt-28">
             <img class="img-fluid z-n1 opacity-25" src="./public/mapOfWorld.webp" alt="MapOfTheWorld" />
             <img class="img-fluid position-absolute photo1-position rounded-circle" src="./public/photo1.webp" alt="photo1" />
@@ -379,6 +379,111 @@
             </div>
         </div>
     </div>
+
+    <div class="d-flex flex-column justify-content-center align-items-center text-center border-bottom border-1 w-100 pb-26" id="faq">
+        <div class="mt-52 flex-d w-100 text-center">
+            <h2 class="display-6 fw-bold">Frequently asked questions</h2>
+            <h5 class="opacity-75 mt-4 fs-6">The rise of mobile devices transforms the way we consume information entirely <br /> and the world's most elevant channels such as Facebook.</h5>
+        </div>
+        <div class="accordion w-50 mt-6" id="accordionExample">
+            <div class="text-start p-5 bg-accordion-color">
+                <span class="fw-bold fs-5 text-primary">How to contact with riders emergency?</span>
+                <p class="mt-4 text-primary fs-6 opacity-75">
+                    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches<br />to corporate strategy foster collaborative thinking to further the overall value proposition. Organically<br /> grow the hollistic world view of disruptive innovation via workplace diversity and empowerment.
+                </p>
+            </div>
+            <div class="accordion-item my-3 text-primary">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed bg-accordion-color fs-5 text-primary ps-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    App installation failed, how to update system information?
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item text-primary">
+                <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed bg-accordion-color fs-5 ps-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Website response taking time, how to improve?
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item my-3 text-primary">
+                <h2 class="accordion-header " id="headingThree">
+                    <button class="accordion-button collapsed bg-accordion-color fs-5 ps-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        New update fixed all bug and issues
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item my-3 text-primary">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed bg-accordion-color fs-5 ps-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        How to contact with riders emergency? 
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex flex-column flex-lg-row">
+        <div class="mt-26">
+            <h1 class="display-5 fw-bold">Download our App now !</h1>
+            <h5 class="opacity-75 mt-4 fs-6">The rise of mobile devices transforms the way we consume information entirely <br /> and the world's most elevant channels such as Facebook.</h5>
+            <div class="d-flex flex-row mt-5">
+                <a>
+                    <img class="img-fluid" src="./public/google.webp" alt="Google Play">
+                </a>
+                <a>
+                    <img class="img-fluid ps-5" src="./public/apple.webp" alt="App Store">
+                </a>
+            </div>
+        </div>
+        <div>
+            <img class="position-absolute" src="./public/smart_object.webp" alt="Smart Object" />
+        </div>
+    </div>
+
+    <footer class="bg-primary pt-26 d-flex flex-column justify-content-center align-items-center mt-24">
+        <div>
+            <span class="fw-bold text-secondary fs-1">App</span><span class="fw-bold text-white fs-1">Lab</span>
+        </div>
+        <div class="d-flex flex-row text-white mt-5">
+            <a class="nav-link fs-6 pe-5" href="#home">Home</a>
+            <a class="nav-link fs-6 pe-5" href="#key_features">Key Features</a>
+            <a class="nav-link fs-6 pe-5" href="#pricing">Pricing</a>
+            <a class="nav-link fs-6 pe-5" href="#testiminial">Testiminial</a>
+            <a class="nav-link fs-6" href="#faq">FAQ</a>
+        </div>
+        <div class="d-flex flex-row mt-5">
+            <a class="fs-3 pe-4 opacity-25" href=""><i class="fa-brands fa-facebook-f text-white"></i></a>
+            <a class="fs-3 pe-4 opacity-25" href=""><i class="fa-brands fa-twitter text-white"></i></a>
+            <a class="fs-3 pe-4" href=""><img src="./public/hashLogo.webp" alt="logo" /></a>
+            <a class="fs-3 pe-4 opacity-25" href=""><i class="fa-brands fa-square-github text-white"></i></a>
+        </div>
+        <div class="mt-26 mb-52">
+            <span class="text-white opacity-25 fs-6">
+                Copyright© Arifur Rahman Tushar 2019. All rights reserved
+            </span>
+        </div>
+    </footer>
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
